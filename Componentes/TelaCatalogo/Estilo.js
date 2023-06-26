@@ -35,24 +35,24 @@ const Estilo = StyleSheet.create({
         color: '#fff',
         fontSize:18,
         marginBottom: 10,
-        marginRight: 10,
-        width: "100%"
+        marginRight: 20,
     },
     subtitulocard: {
         color: '#fff',
         fontSize: 13,
         textAlign: 'justify',
-        position: 'abosulute',
+        position: 'absolute',
+        width: 200,
+        height:200,
         marginTop:  55,
     },
     CardImg: {
-        margin:10,
+        marginLeft:-60,
         height: "99%",
-        width: 35,
-        position:'abosulute',
+        width: 40,
+        position: 'absolute',
         marginTop: 0,
-        width: "38% "
-
+        
     }
 });
 
